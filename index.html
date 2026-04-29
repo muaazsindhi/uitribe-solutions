@@ -1937,17 +1937,17 @@
 
       const phoneNumber = "917600613707";
 
-      const text = `🚀 *New Website Inquiry* %0A%0A
-👤 Name: ${name} %0A
-📧 Email: ${email} %0A
-🛠 Service: ${service} %0A
-💬 Message: ${message}`;
+      const text = `🚀 *New Website Inquiry - UITRIBE*
+
+👤 *Name:* ${name}
+📧 *Email:* ${email}
+🛠 *Service:* ${service}
+💬 *Message:* ${message}`;
 
       const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
 
       window.open(url, "_blank");
 
-      // Optional success message
       document.getElementById("formSuccess").style.display = "block";
     }
   </script>
